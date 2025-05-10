@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerald Catina | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Mobile Menu Button -->
+    <button class="mobile-menu-btn" aria-label="Toggle menu">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h6 class="hero-subtitle">HELLO WORLD!</h6>
+          <h1 class="hero-title">
+            <span class="name-highlight">Gerald Catina</span>
+            <span class="animated-cursor">|</span>
+          </h1>
+          <p class="hero-description">
+            Building the future with <span class="typing-text"></span>
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fas fa-code"></i> View Projects
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fas fa-paper-plane"></i> Hire Me
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="glowing-circle"></div>
+          <img src="images/me.jpg" alt="Gerald Catina" class="floating-img" />
+        </div>
+      </div>
+      <div class="scroll-down">
+        <span>Explore More</span>
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-img">
+            <img src="images/your-avatar.jpg" alt="Gerald Catina" />
+          </div>
+          <div class="about-text">
+            <p>
+              I'm passionate about creating beautiful, functional websites with
+              a focus on user experience and performance.
+            </p>
+            <div class="skills-section">
+              <h3>My Skills</h3>
+              <ul class="skills">
+                <li><i class="fas fa-check"></i> HTML/CSS</li>
+                <li><i class="fas fa-check"></i> PHP</li>
+                <li><i class="fas fa-check"></i> Photography</li>
+                <li><i class="fas fa-check"></i> UI/UX Principles</li>
+                <li><i class="fas fa-check"></i> Machine Learning</li>
+                <li><i class="fas fa-check"></i> Java</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="images/project1.jpg" alt="Project 1" />
+            </div>
+            <div class="project-info">
+              <h3>Project Title</h3>
+              <p>A brief description of the project and technologies used.</p>
+              <div class="project-links">
+                <a href="#" class="btn btn-small"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+                <a href="#" class="btn btn-small btn-outline"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Add more project cards as needed -->
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <p>
+              Feel free to reach out for collaborations or just to say hello!
+            </p>
+            <div class="contact-links">
+              <a href="mailto:geraldcatina5@gmail.com" class="contact-link">
+                <i class="fas fa-envelope"></i> geraldcatina5@gmail.com
+              </a>
+              <a href="tel:+1234567890" class="contact-link">
+                <i class="fas fa-phone"></i> +1 (234) 567-890
+              </a>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+        <div class="social-links">
+          <a
+            href="https://github.com/dlarG"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/gerald-catena-441393321/"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" target="_blank" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Gerald Catina. All rights reserved.</p>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
